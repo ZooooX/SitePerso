@@ -7,7 +7,7 @@
     "start" : "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-front" : "cd frontend && npm run build && cd ..",
-    "install-front" : "cd frontend && npm i && cd ..",
+    "install-front" : "cd frontend && npm ci && cd ..",
     "heroku-postbuild" : "npm run install-front && npm run build-front"
   },
   "author": "Rémy Tupenot",
