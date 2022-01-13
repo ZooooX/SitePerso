@@ -39,7 +39,7 @@ export const projects = [
                 .
                 `,
         techs : ["Unity","C#"],
-        img : "./assets/img/UnityPlayBtn.PNG",
+        img : "./assets/img/UnityPLayBtn.PNG",
         video :"https://www.youtube.com/embed/rlQQY-IQ5S0",
         github : "",
         demo : ""
