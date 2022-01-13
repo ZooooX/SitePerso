@@ -4,7 +4,7 @@
   "description": "Portfolio CV",
   "main": "server.js",
   "scripts": {
-    "start" : "npm run build-front && node server.js",
+    "start" : "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-front" : "cd frontend && npm run build && cd ..",
     "install-front" : "cd frontend && npm i && cd ..",
