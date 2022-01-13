@@ -142,7 +142,8 @@ export default class Utils {
     }
 
     static sendMail(fullname, email, text){
-        axios.post("http://localhost:3000/api/sendmail",{fullname : fullname,email : email,message : text})
+        //axios.post("http://localhost:3000/api/sendmail",{fullname : fullname,email : email,message : text})
+        axios.post("https://remy-tupenot.herokuapp.com/api/sendmail",{fullname : fullname,email : email,message : text})
             .then((res) => {
                 this.showSuccessMessage("Message bien envoyé ! :)");
                 console.log(res);
