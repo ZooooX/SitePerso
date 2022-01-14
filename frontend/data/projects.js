@@ -7,7 +7,7 @@ export const projects = [
         techs : ["Javascript","ThreeJS","HTML5","SASS"],
         img : "./assets/img/Siteperso.PNG",
         video : "",
-        github : "",
+        github : "https://github.com/ZooooX/SitePerso",
         demo : ""
     },
     {
