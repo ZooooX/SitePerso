@@ -22,9 +22,9 @@ export const projects = [
     },
     {
         title : "HelpJason",
-        desc : `Petit projet réalisé en tant que test d'entrée pour la Wild Code School, simple possibilitée de créer un membre d'équipage et de le supprimer. <br><br>
-                Cet équipage est rafraichi en temps réel pour tout les utilisateurs présent sur la page grâce a Socket.io. <br><br>
-                Les données étant enregistrées sur le cloud gratuit MongoDB Atlas, l'application peut être en veille et donc innaccessible.`,
+        desc : `Petit projet réalisé en tant que test d'entrée pour la Wild Code School, simple possibilité de créer un membre d'équipage et de le supprimer. <br><br>
+                Cet équipage est rafraichi en temps réel pour tout les utilisateurs présent sur la page grâce à Socket.io. <br><br>
+                Les données étant enregistrées sur le cloud gratuit MongoDB Atlas, l'application peut être en veille et donc inaccessible.`,
         techs : ["Javascript","NodeJS","Express","Socket.io","MongoDB","Mongoose","HTML","CSS"],
         img : "./assets/img/helpjason.PNG",
         video :"",
