@@ -95,7 +95,7 @@ export default class Universe {
         this.earth = new Planet("Profil",new THREE.Vector3(0,0,-120),[0,0.65,1], "../assets/img/earth.jpg",this.scene,this.camera);
         this.ceres = new Planet("Projets",new THREE.Vector3(120,0,-40),[1,1,1], "../assets/img/ceres.jpg",this.scene,this.camera);
         this.sedna = new Planet("Skills",new THREE.Vector3(-120,0,-40),[1,0,0], "../assets/img/Sedna.png",this.scene,this.camera);
-        this.jupiter = new Planet("jupiter",new THREE.Vector3(-70,0,100),[1,1,0], "../assets/img/jupitermap.jpg",this.scene,this.camera);
+        this.jupiter = new Planet("Indisponible",new THREE.Vector3(-70,0,100),[1,1,0], "../assets/img/jupitermap.jpg",this.scene,this.camera);
         this.purpleplanet = new Planet("Contact",new THREE.Vector3(70,0,100),[1,0.4,1], "../assets/img/purpleplanet.png",this.scene,this.camera);
         this.stars = new Stars();
         this.spacesuit = new SpaceSuit();
